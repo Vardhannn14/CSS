@@ -1,0 +1,16 @@
+/* Syntax  */
+
+        /* Selector{
+            property1: value1;
+            property2: value2;
+        } */
+        
+        .External{
+            background-color: darkred;
+            color: rgb(97, 245, 174);
+            font-size: 30px;
+        }
+
+body{
+    background-color: rgb(107, 224, 201);
+}
