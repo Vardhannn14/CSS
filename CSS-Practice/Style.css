@@ -6,11 +6,11 @@
         } */
         
         .External{
-            background-color: darkred;
+            background-color: rgb(120, 20, 20);
             color: rgb(97, 245, 174);
             font-size: 30px;
         }
 
 body{
-    background-color: rgb(107, 224, 201);
+    background-color: rgb(230, 246, 64);
 }
