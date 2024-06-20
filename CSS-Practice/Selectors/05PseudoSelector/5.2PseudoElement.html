@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Element Selector</title>
+
+    <!-- Psuedo Element Selector are represented by (::) -->
+    <!-- Internal CSS -->
+
+    <style>
+        h1::before{
+            content:"~";
+        }
+        h1::after{
+            content:"!";
+        }
+        p::first-letter{
+            font-size: 60px;
+            color: indigo;
+        }
+        p::first-line{
+            background-color: darkslategrey;
+            color: aquamarine;
+        }
+        p::selection{
+            background-color: grey;
+            color: crimson;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Psuedo Element Selector(::)</h1>
+    <p>My name is Suryavardhan Patadiya</p>
+</body>
+</html>

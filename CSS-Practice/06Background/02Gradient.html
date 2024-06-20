@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient in Background</title>
+    
+    <style>
+        body{
+            background-color: thistle;
+        }
+        div{
+            height: 200px;
+            font-size: 30px;
+            color: antiquewhite;
+        }
+        /* linear-gradient is used for upper to lower straight line structure of colors */
+        .linear-gradient{
+            background: linear-gradient(90deg, rgba(2,0,35,1) 0%, rgba(9,121,39,1) 42%, rgba(0,81,255,1) 100%);
+        }
+        /* radial-gradient is used for spiral like structure of colors */
+        .radial-gradient{
+            background: radial-gradient(red, green, blue);
+        }
+        /* conic-gradient is used for cone like structure of colors */
+        .conic-gradient{
+            background: conic-gradient(red, green, blue);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Gradient In CSS</h1><hr>
+    <div class="linear-gradient">linear-gradient</div><hr>
+    <div class="radial-gradient">radieal-gradient</div><hr>
+    <div class="conic-gradient">conic-gradient</div><hr>
+</body>
+</html>
