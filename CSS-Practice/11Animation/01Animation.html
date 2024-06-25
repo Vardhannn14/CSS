@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal CSS -->
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: mediumseagreen;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: crimson;
+            color: burlywood;
+            animation-name: VARDHAN;
+            text-align: center;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            animation-iteration-count: infinite;
+            animation-timing-function: steps(5, end);
+            animation-timing-function: ease-in-out;
+            animation-timing-function: linear;
+            /* animation-delay: 2s; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction: reverse; */
+        }
+        @keyframes VARDHAN {
+            from{
+                margin-left: 0px;  
+            }
+            to{
+                margin-left: 800px;
+                border-radius: 50%;
+            }
+        }
+     </style>
+</head>
+<body>
+    <div class="box">VARDHAN</div>
+</body>
+</html>

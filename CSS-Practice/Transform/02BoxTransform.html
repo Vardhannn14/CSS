@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Transfor in CSS</title>
+    <!-- Internal CSS -->
+     <style>
+        body{
+            background-color: thistle;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            animation-name: touch;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes touch {
+            0%{
+                margin-left: 0px;
+                margin-top: 0px;
+
+            }
+            25%{
+                margin-left: 1670px;
+                margin-top: 0px;
+                border-radius: 50%;
+                background-color: green;
+            }
+            50%{
+                margin-left: 1670px;
+                margin-top: 680px;
+                background-color: gold;
+            }
+            75%{
+                margin-left: 0px;
+                margin-top: 680px;
+                border-radius: 50%;
+                background-color: brown;
+
+            }
+            100%{
+                margin-left: 0px;
+                margin-top: 0px;
+                background-color: blueviolet;
+            }
+        }
+     </style>
+</head>
+<body>
+    <div class="box">BOX</div>
+</body>
+</html>
