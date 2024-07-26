@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Task/</title>
+    <!-- Internal CSS -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         body{
+            background-color: thistle;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+        }
+        .hide{
+            display: flex;
+            justify-content: space-between;
+        }
+        .type{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .size{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .feature{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+     </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#">What's New</a>
+            <div class="show">
+                <a href="#">Luggage</a>
+                <div class="hide">
+                    <div class="type">
+                        <span>Type</span>
+                        <a href="#">Hard Luggage</a>
+                        <a href="#">Soft Luggage</a>
+                    </div>
+                    <div class="size">
+                        <span>Size</span>
+                        <a href="#">Cabin</a>
+                        <a href="#">Medium</a>
+                        <a href="#">Large</a>
+                    </div>
+                    <div class="feature">
+                        <a href="#">TSA Lock</a>
+                        <a href="#">Anti-Theft</a>
+                        <a href="#">Dual Wheels</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Backpack</a>
+            <a href="#">Duffles</a>
+            <a href="#">Student Travel</a>
+            <a href="#">Sale</a>
+        </nav>
+    </div>
+</body>
+</html>
